@@ -1,0 +1,260 @@
+body{
+    margin: 0px;
+}
+.companyLogo{
+    max-height: 78px;
+    max-width: 138px;
+}
+li {
+    list-style-type: none;
+    display: inline;
+    padding: .5rem;   
+}
+.navBar{
+    display: flex;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: block;
+    padding: .3rem;
+    cursor: pointer;
+}
+#iconAdjust{
+    vertical-align: middle;
+}
+.dropDown{
+    display: inline-block;
+}
+.dropDownItems{
+    position: absolute;
+    display: none;
+    background-color: white;
+}
+.dropDown:hover .dropDownItems {
+    display: block;
+}
+.insideLinks:hover {
+    color: #4341d8;
+}
+.navHader{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 2px 5px rgb(0,0,0,0.1);
+}
+/* --------------------------- */
+.jobSearchLogo{
+    width: 72px;
+    height: 72px;
+}
+.sectionSecond{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+/* ---------------------------------------- */
+.sectionThird{
+    background-color:#e8eaee;
+}
+.liImage{
+    width: 57px;
+    height: 57px;
+    align-self: center;
+    margin: 1.4rem;
+}
+.subDiv{
+    display: flex;
+    border: 1px solid #B7BBBE;
+    background-color: white;
+    width: 40vw;
+    margin: 10px;
+}
+
+.cardHeading{
+    color: #343841;
+    font-size: 2.2rem;
+    text-align: center;
+    padding-top: 5rem;
+}
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.hidenItemsCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: none;
+}
+.btnElement{
+    background-color: #e8eaee;
+    width: 108px;
+    height: 48px;
+    margin: 1rem;
+    color: #4341d8;
+    border: 1px solid #4341d8;
+    cursor: pointer;
+}
+.btnElement:hover{
+    background-color: #4341d8;
+    color: white;
+}
+/* ------------------------------------------------------glassdoor */
+.glassdoorImg{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.glassFirstContainer{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    border: 1px solid #dddddd;
+    
+
+}
+.profileCardOne{
+    display: flex;
+    border-right: 2px solid #dddddd;
+    justify-content: center;
+    width: 33%;
+}
+canvas {
+    display: block;
+  }
+.emptyContainer{
+    border-radius: 50%;
+    background-color: #3182d9;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+.profileCardTwo{
+    display: flex;
+    width: 33%;
+    justify-content: center;
+    border-right: 2px solid #dddddd;
+
+}
+#percentageCanvas{
+    align-self: center;
+    margin-right: 1rem;
+}
+.profileCardThree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+#percentageCanvasOne{
+    margin-right: 1rem;
+}
+.subGlass{
+    display: flex;
+    align-items: center ;
+}
+.glassDoorSection{
+    padding: 6rem;
+}
+/* ----------------------------------------------- */
+.reviewSection{
+    padding: 5.5rem;
+    display: flex;
+    align-items: flex-start;
+}
+.sideDivLeft{
+    background-color: white;
+    width: 50%;
+    margin: 8px;
+    border: 1px solid #dddddd;
+    padding: 2rem;
+    
+}
+.rightDiv{
+    width: 50%;
+    margin: 8px;
+    
+}
+#fileProgress::-webkit-progress-bar {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+  }
+
+#fileProgress::-webkit-progress-value {
+    background-color: #4543d9;
+    border-radius: 10px;
+  }
+progress {
+  background-color: #ddd; 
+  border-radius: 10px;
+  width: 95%; 
+}
+.sideDivRight{
+    background-color: white;
+    margin-bottom: 1rem;
+    padding: 24px;
+}
+.pro-Cons-Section{
+    display: none;
+}
+.dropDownGlass:hover{
+    color: #4341d8;
+}
+.lastSection{
+    display: flex;
+    border-top:.1px solid #949494;
+}
+.linkDec{
+    font-family: "Roboto";
+    color:#4543d9;
+    text-decoration: underline;
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+/* ---------------------------------------------------------- */
+.footerSection{
+    background-color: black;
+    
+}
+.footerImg{
+    width: 125px;
+    height: 48px;
+}
+.address{
+    color: white;
+    font: 1rem "Roboto";
+}
+.menuFooter{
+    color: white;
+    font-weight: lighter;
+    font-size: 1rem;
+    font-family: "Roboto";
+    
+}
+.hoverColor:hover{
+    color: #4341d8;
+}
+/* ---------------------------------------- */
+.footerShareItems{
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+.anchorFooter{
+    
+}
